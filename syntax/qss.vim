@@ -258,8 +258,12 @@ syn match subcontrol '::up-arrow'ms=s+2 contained
 syn match subcontrol '::up-arrow'ms=s+2 contained
 
 hi widget ctermfg=red
+hi widget guifg=red
 hi value ctermfg=blue
+hi value guifg=blue
 hi pseudo ctermfg=yellow
+hi pseudo guifg=yellow
 hi subcontrol ctermfg=green
+hi subcontrol guifg=green
 
 let b:current_syntax = "qss"
