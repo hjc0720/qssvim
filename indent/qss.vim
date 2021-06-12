@@ -44,3 +44,4 @@ function GetQSSIndent( )
 
     return 0
 endfunction
+call input "x= ".x
